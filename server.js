@@ -1,7 +1,8 @@
-if (process.env.NODE_ENV !== "production") {
-  require("dotenv").load();
-}
+// if (process.env.NODE_ENV !== "production") {
+//   require("dotenv").load();
+// }
 
+const { MONGODB } = require("./config.js");
 const express = require("express");
 const app = express();
 const expressLayouts = require("express-ejs-layouts");
@@ -18,9 +19,8 @@ app.use(expressLayouts);
 app.use(express.static("public"));
 
 // // mongoose
-mongoose.connect(process.env.DATABASE_URL, {
+mongoose.connect(MONGODB, {
   useNewUrlParser: true,
-  useCreateIndex: true,
 });
 const db = mongoose.connection;
 db.on("error", (error) => console.error(error));
