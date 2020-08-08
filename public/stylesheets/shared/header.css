@@ -5,7 +5,7 @@
 }
 
 .header-title {
-  color: var(--color-text-light);
+  color: #323232;
   text-decoration: none;
   font-size: var(--nav-title-font-size);
   font-weight: var(--nav-title-font-weight);
@@ -31,11 +31,13 @@
 
 .header-nav li a {
   text-decoration: none;
-  color: var(--color-text-light);
+  color: #323232;
   font-weight: var(--nav-link-font-weight);
   padding: 1rem;
 }
 
-.header-nav li a:hover, .header-title:hover {
-  color: white;
+.header-nav li a:hover,
+.header-title:hover {
+  color: #364f6b;
+  border-radius: ;
 }

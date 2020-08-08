@@ -7,10 +7,17 @@
 .book-cover {
   width: var(--book-cover-width);
   height: calc(var(--book-cover-width) / var(--book-cover-aspect-ratio));
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27);
+  transition: 0.3s;
+}
+.book-cover:hover {
+  transform: scale(1.15);
 }
 
 .book-cover-large {
-  --book-cover-width: var(--book-cover-width-large);
+  --book-cover-width: var(--book-cover-width-medium);
 }
 
 .book-grid {
@@ -50,8 +57,8 @@
   grid-template-areas:
     "edit delete"
     "author author";
-  grid-gap: .5rem;
-  margin-top: .5rem;
+  grid-gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .book-details-author-button {
