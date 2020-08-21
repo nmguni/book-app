@@ -44,10 +44,9 @@
   border-radius: 0.25rem;
   border: none;
   background-color: #364f6b1f;
-  color: var(--color-text-light);
+  color: #000;
   font-size: 1rem;
   font-weight: normal;
-  font-family: "Gotham Rounded";
   outline: none;
 }
 
@@ -67,16 +66,16 @@
 }
 
 .filepond--root {
-  font-family: "Gotham Rounded";
   margin-bottom: 0;
 }
 
 .filepond--panel-root {
-  background-color: var(--form-input-background-color);
-  border: 1px solid var(--form-input-border-color);
+  background-color: #364f6b;
+  border: none;
+  border-radius: 5px;
 }
 
 .filepond--drop-label {
-  color: var(--color-text-light);
+  color: #fff;
   font-size: inherit;
 }

@@ -5,10 +5,14 @@
 }
 
 .header-title {
-  color: #323232;
+  color: #333333;
   text-decoration: none;
-  font-size: var(--nav-title-font-size);
+  font-size: 2rem;
   font-weight: var(--nav-title-font-weight);
+  text-transform: uppercase;
+  background-color: #f4fa9c;
+  border-radius: 4px;
+  padding: 0.5px;
 }
 
 .header-nav {
@@ -16,7 +20,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
+  padding: 5px;
+
+  background-color: #d2d2d259;
 }
 
 .header-nav ul {
@@ -31,13 +38,15 @@
 
 .header-nav li a {
   text-decoration: none;
-  color: #323232;
-  font-weight: var(--nav-link-font-weight);
+  color: #333333;
+  font-weight: bold;
   padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 .header-nav li a:hover,
 .header-title:hover {
-  color: #364f6b;
-  border-radius: ;
+  color: #33333391;
+  /* border-radius: ; */
 }

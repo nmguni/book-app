@@ -1,21 +1,20 @@
 :root {
-  --color-btn-primary-background: hsl(var(--color-base-hue), 100%, 83%);
-  --color-btn-primary-background-dark: hsl(var(--color-base-hue), 100%, 73%);
-  --color-btn-primary-text: hsl(var(--color-base-hue), 100%, 20%);
+  --color-btn-primary-background: #364f6b;
+  --color-btn-primary-background-dark: #243446;
+  --color-btn-primary-text: #fff;
   --color-btn-primary-text-dark: hsl(var(--color-base-hue), 100%, 10%);
-  --color-btn-border: black;
-  --color-btn-danger-background: hsl(var(--color-danger-hue), 100%, 83%);
-  --color-btn-danger-background-dark: hsl(var(--color-danger-hue), 100%, 73%);
-  --color-btn-danger-text: black;
+  --color-btn-border: none;
+  --color-btn-danger-background: #d72323;
+  --color-btn-danger-background-dark: #8d1f1f;
+  --color-btn-danger-text: #fff;
   --color-btn-danger-text-dark: black;
 }
 
 .btn {
   border: 1px solid var(--color-btn-border);
-  border-radius: .5rem;
-  padding: .5rem 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
   font-size: 1.2rem;
-  font-family: 'Gotham Rounded';
   cursor: pointer;
   text-decoration: none;
   text-align: center;
